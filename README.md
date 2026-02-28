@@ -166,7 +166,7 @@ CohortMonth × Month_Number × Active_Customers
 ---
 # 📈 Tableau Dashboard
 
-![Dashboard Overview](dashboard/customer_cohort_dashboard.png)
+![Dashboard Overview](dashboard/customer_cohort_&_retention_dashboard.png)
 
 Dashboard KPIs
 
@@ -238,7 +238,7 @@ azure-cohort-retention-analysis/
 │
 ├── dashboard/
 │   ├── customer-cohort-retention-analysis.twb
-│   └── customer_cohort_dashboard.png
+│   └── customer_cohort_&_retention_dashboard.png
 │
 ├── data/
 │   ├── olist_customers_dataset.csv
