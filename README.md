@@ -27,20 +27,8 @@ Olist Brazilian E-Commerce Public Dataset (Kaggle)
 
 # 🏗 Architecture Overview
 
+## Data Flow
 ![Architecture Overview](architecture/architecture_overview.png)
-
-### Data Flow
-
-Raw CSV Files  
-⬇  
-Azure SQL – Staging Schema  
-⬇  
-Azure SQL – Star Schema (dwh)  
-⬇  
-Customer Cohort SQL View  
-⬇  
-Tableau Dashboard  
-
 ---
 
 ## 🔹 Staging Layer
