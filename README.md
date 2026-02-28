@@ -229,7 +229,33 @@ Retention drops sharply after Month 1.
 # 📂 Repository Structure
 
 ```
-
+azure-cohort-retention-analysis/
+│
+├── architecture/
+│   └── architecture_overview.png
+│
+├── dashboard/
+│   ├── customer-cohort-retention-analysis.twb
+│   └── customer_cohort_dashboard.png
+│
+├── data/
+│   ├── olist_customers_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   ├── olist_orders_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
+│   └── product_category_name_translation.csv
+│
+├── sql/
+│   ├── 01_create_staging_tables.sql
+│   ├── 02_create_dimension_tables.sql
+│   ├── 03_create_fact_table.sql
+│   ├── 04_dimension_constraints.sql
+│   ├── 05_create_performance_indexes.sql
+│   └── 06_customer_cohort_view.sql
+│
+└── README.md
 ```
 ---
 
