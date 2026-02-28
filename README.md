@@ -166,6 +166,8 @@ CohortMonth × Month_Number × Active_Customers
 ---
 # 📈 Tableau Dashboard
 
+![Dashboard Overview](dashboard/customer_cohort_dashboard.png)
+
 Dashboard KPIs
 
 - Total Customers: ~95K
